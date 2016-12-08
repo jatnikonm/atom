@@ -13,13 +13,22 @@
 <?php slot('before-content') ?>
   <section class="browse-options">
     <?php echo get_partial('default/printPreviewButton', array('class' => 'clipboard-print')) ?>
-
     <?php echo get_partial('default/sortPicker', array(
       'options' => array(
         'lastUpdated' => __('Most recent'),
         'alphabetic'  => __('Alphabetic'),
         'identifier'  => __('Reference code'),
         'date'        => __('Date')))) ?>
+    &nbsp;
+    <?php echo get_partial('default/genericPicker', array(
+      'options' => array(
+        'informationobject' => sfConfig::get('app_ui_label_informationobject'),
+        'actor'             => sfConfig::get('app_ui_label_actor'),
+        'repository'        => sfConfig::get('app_ui_label_repository')
+      ),
+      'label' => __('Entity type'),
+      'param' => 'type')) ?>
+
   </section>
 <?php end_slot() ?>
 
