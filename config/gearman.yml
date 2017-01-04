@@ -18,6 +18,10 @@ all:
     file_import:
       - arFileImportJob
     xml_export:
-      - arXmlExportJob
+      - arInformationObjectXmlExportJob
     generate_csv_report:
       - arGenerateReportJob
+    actor_csv_export:
+      - arActorCsvExportJob
+    actor_xml_export:
+      - arActorXmlExportJob
