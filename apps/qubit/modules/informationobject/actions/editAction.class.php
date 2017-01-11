@@ -628,6 +628,7 @@ class InformationObjectEditAction extends DefaultEditAction
         $this->processForm();
 
         $this->resource->save();
+        $this->resource->updateXmlExports();
 
         $this->redirect(array($this->resource, 'module' => 'informationobject'));
       }
