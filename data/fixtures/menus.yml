@@ -1042,6 +1042,7 @@ QubitMenu:
       fr: 'Pages statiques'
       gl: 'Páxinas estáticas'
       hu: 'Statikus oldalak'
+      id: 'Halaman Statis'
       it: 'Pagine statiche'
       ja: 静的ページ
       ka: 'არეულ-დარეული გვერდები'
@@ -1346,6 +1347,7 @@ QubitMenu:
       fr: Aide
       gl: Axuda
       hu: Súgó
+      id: 'Bantuan'
       is: Hjálp
       it: Aiuto
       ja: ヘルプ
@@ -1380,6 +1382,7 @@ QubitMenu:
       fr: 'Mon profil'
       gl: 'O meu perfil'
       hu: 'Saját profilom'
+      id: 'Profil Saya'
       is: 'Síðan mín'
       it: 'Il mio profilo'
       ja: 私のプロフィール
@@ -1416,6 +1419,7 @@ QubitMenu:
       fr: 'Ouverture de session'
       gl: 'Iniciar sesión'
       hu: Bejelentkezés
+      id: 'Masuk'
       is: Innskráning
       it: Accedi
       ja: ログイン
@@ -1454,6 +1458,7 @@ QubitMenu:
       fr: 'Fermeture de session'
       gl: 'Pechar sesión'
       hu: Kijelentkezés
+      id: 'Keluar'
       is: Útskráning
       it: Esci
       ja: ログアウト
@@ -1489,6 +1494,7 @@ QubitMenu:
       fr: 'Descriptions archivistiques'
       gl: 'Descrición arquivística'
       hu: Irateírások
+      id: 'Deskripsi Arsip'
       is: 'Lýsandi samantektir'
       it: 'Descrizioni archivistiche'
       ja: アーカイブズ記述
